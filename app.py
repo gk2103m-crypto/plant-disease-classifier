@@ -28,4 +28,4 @@ interface = gr.Interface(
 )
 
 if __name__ == "__main__":
-    interface.launch(share=True)
+   interface.launch(share=False, server_name="0.0.0.0", server_port=8000)
