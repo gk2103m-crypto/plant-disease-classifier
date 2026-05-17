@@ -27,5 +27,10 @@ interface = gr.Interface(
     description="Detect plant diseases with 97.72% accuracy"
 )
 
-if __name__ == "__main__":
-   interface.launch(share=False, server_name="0.0.0.0", server_port=8000)
+# Export for Vercel
+app = interface.queue().launch(
+    share=False, 
+    server_name="0.0.0.0", 
+    server_port=8000,
+    show_error=True
+)
