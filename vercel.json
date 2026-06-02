@@ -1,5 +1,0 @@
-{
-  "env": {
-    "GRADIO_SERVER_PORT": "8000"
-  }
-}

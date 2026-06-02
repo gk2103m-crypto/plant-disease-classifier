@@ -3,4 +3,6 @@ __pycache__/
 .idea/
 *.pyc
 .DS_Store
-gradio/
+predictions
+*.db
+*.sqlite

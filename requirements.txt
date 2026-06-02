@@ -1,5 +1,9 @@
 torch==2.12.0
 torchvision==0.27.0
-gradio==6.14.0
 pillow==12.2.0
 numpy==2.4.4
+fastapi
+uvicorn
+python-multipart
+pydantic
+google-generativeai
