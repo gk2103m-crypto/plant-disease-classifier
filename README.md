@@ -73,7 +73,7 @@ Open your browser and navigate to `http://localhost:8000` to access the interact
 - **Epochs:** 10
 - **Early Stopping:** Patience 5
 - **Training Time:** 2.5 hours (GPU)
-- **Dataset Split:** 64% train, 15% validation, 20% test
+- **Dataset Split:** 65% train, 15% validation, 20% test
 
 ## 💻 Usage (API / Scripting)
 
